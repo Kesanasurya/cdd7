@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramu Shop | Premium Banana Boutique</title>
+    <meta name="description"
+        content="Experience the finest selection of premium, organic bananas from around the globe. Fresh, sustainable, and delivered to your doorstep.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo"> <span>Ramu Shop</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon" id="cart-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="reveal-text">Nature's Own <span>Gold.</span></h1>
+                <p>Curated selections of the world's most exotic and delicious bananas. From the classic Cavendish to
+                    the rare Red Dacca.</p>
+                <div class="hero-btns">
+                    <a href="#shop" class="btn btn-primary">Shop Collection</a>
+                    <a href="#about" class="btn btn-secondary">Our Story</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="public/images/im.png" alt="Premium Bananas">
+            </div>
+        </section>
+
+        <section id="shop" class="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Premium Selection</h2>
+                    <p>Hand-picked for quality and perfectly ripened.</p>
+                </div>
+                <div class="product-grid" id="product-grid">
+                    <!-- Products will be injected by JS -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>Sustainability First</h3>
+                        <p>We work directly with small-scale farmers to ensure fair trade practices and the highest
+                            quality produce. Every banana is tracked from plantation to your table.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Organic</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">50+</span>
+                            <span class="stat-label">Varieties</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">BANANA <span>BLISS</span></div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Shipping Info</a>
+                </div>
+                <div class="socials">
+                    <!-- Social Icons -->
+                </div>
+            </div>
+            <p class="copyright">&copy; 2026 Banana Bliss. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast">Added to cart!</div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
